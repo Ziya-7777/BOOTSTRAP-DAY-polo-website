@@ -1,0 +1,38 @@
+.dropcap.dropcap-colored {
+    background-color: #2250fc;
+    color: #fff;
+}
+
+.dropcap {
+    background: none repeat scroll 0 0 #eee;
+    border-radius: 4px;
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    margin: 8px 20px 0 0;
+    text-align: center;
+    width: 40px;
+}
+
+.lead{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #777;
+    font-family: "Poppins", sans-serif;
+}
+
+.call-action img{
+    height: 25vh;
+}
+.call-action .button{
+    transition: all 0.3s ease-in-out;
+}
+
+.call-action .button:hover{
+   color: #212529 !important;
+   background-color: #f8f9fa !important;
+   border-color: #f8f9fa !important;
+   font-weight: 600;
+}
