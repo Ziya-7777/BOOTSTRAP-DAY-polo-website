@@ -20,6 +20,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css" type="text/css" />
     <link rel="stylesheet" href="./css/media.css" type="text/css" />
   </head>
@@ -217,7 +218,7 @@
           </div>
           <div class="col-md-6">
             <div class="carousel slide" id="about-carousel">
-              <div class="carousel-indicators">
+              <div class="carousel-indicators" id="about-carousel-indicators">
                 <button
                   class="active bg-secondary-subtle"
                   type="button"
@@ -299,19 +300,19 @@
     <!--About Us section ends-->
     <!--contact section starts-->
     <section class="call-action mt-5 py-5">
-      <div class="image position-relative">
-        <img
-          class="d-block w-100"
-          src="./images/img-1.jpg"
-          alt=""
-          style="
-            object-fit: cover;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-          "
-        />
-       
+      <div class="container">
+        <div class="image-content text-white">
+          <h3 class="fs-3">
+            Join by April 27 and Win $200 in Programs and Services
+          </h3>
+          <p class="fw-medium fs-6 my-2">
+            This is a simple hero unit, a simple call-to-action-style component
+            for calling extra attention to featured content.
+          </p>
+          <button class="btn btn-outline-light fw-medium mt-4">
+            CALL US NOW!
+          </button>
+        </div>
       </div>
     </section>
     <!--contact section ends-->
@@ -319,9 +320,9 @@
     <section class="our-work py-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-10">
+          <div class="col-md-7">
             <div class="heading-text">
-              <h2 ::before>Our work</h2>
+              <h2>Our work</h2>
               <p>
                 Nulla varius consequat magna, id molestie ipsum volutpat quis. A
                 true<br />
@@ -329,19 +330,95 @@
               </p>
             </div>
           </div>
-          <div class="col-md-2">
-            <a
-              href="javascript:void(0)"
-              class="btn btn-light btn-shadow btn-rounded float-end"
-            >
-          <span>Our work</span>
-        <i class="fa fa-long-arrow-alt-right"></i>
-      </a>
+          <div class="col-md-5">
+            <div class="work-btn pt-5">
+              <a
+                href="javascript:void(0)"
+                class="btn rounded-pill border-1 border-secondary-subtle float-md-end"
+              >
+                <span>OUR WORK</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!--Our Work section ends-->
+
+    <!--numbers section starts-->
+    <section class="numbers py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="number-content py-5 text-light text-center">
+              <h1 class="display-4 mb-5 fw-bold position-relative">12416</h1>
+              <span style="color: #fff">LINES OF CODE</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="number-content py-5 text-light text-center">
+              <h1 class="display-4 mb-5 fw-bold position-relative">365</h1>
+              <span style="color: #fff">CUPS OF COFFEE</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="number-content py-5 text-light text-center">
+              <h1 class="display-4 mb-5 fw-bold position-relative">114</h1>
+              <span style="color: #fff">FINISHED PROJECTS</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="number-content py-5 text-light text-center">
+              <h1 class="display-4 mb-5 fw-bold position-relative">14825</h1>
+              <span style="color: #fff">SATISFIED CLIENTS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--numbers section ends-->
+
+    <!--services section starts-->
+    <section class="services py-5">
+      <div class="container">
+        <div class="service-content text-center">
+          <h3 class="fw-medium display-5 mb-5">Why we have the best<br> services around!</h3>
+          <p class="fw-light fs-5 text-secondary">Nulla varius consequat magna, id molestie ipsum volutpat quis. A true story, that<br>
+             never been told!. Fusce id mi diam, non ornare.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="icon-box text-center">
+              <div class="icon">
+                <i class="fa-solid fa-rocket fs-2 mb-3"></i>
+              </div>
+              <h3 class="fs-4 fw-bold">Modern Design</h3>
+              <p class="h6 text-secondary mt-4">Lorem ipsum dolor sit amet, consecte<br> adipiscing elit. Suspendisse condimentum<br> porttitor cursumus.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="icon-box text-center">
+              <div class="icon">
+                <i class="fa-solid fa-flask fs-2 mb-3"></i>
+              </div>
+              <h3 class="fs-4 fw-bold">Clean Modern Code</h3>
+              <p class="h6 text-secondary mt-4">
+              Lorem ipsum dolor sit amet, consecte<br> adipiscing elit. Suspendisse condimentum<br> porttitor cursumus.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="icon-box text-center">
+              <div class="icon">
+                <i class="fa-solid fa-umbrella fs-2 mb-3"></i>
+              </div>
+              <h3 class="fs-4 fw-bold">Lifetime Updates & Support</h3>
+              <p class="h6 text-secondary mt-4">Lorem ipsum dolor sit amet, consecte<br> adipiscing elit. Suspendisse condimentum<br> porttitor cursumus..</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--services section ends-->
 
     <!-- Bootstrap JavaScript Libraries -->
     <script

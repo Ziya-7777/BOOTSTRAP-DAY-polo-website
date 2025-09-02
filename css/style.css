@@ -23,9 +23,12 @@
     font-family: "Poppins", sans-serif;
 }
 
-.call-action img{
-    height: 25vh;
+.call-action{
+    background-image: url(../images/img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .call-action .button{
     transition: all 0.3s ease-in-out;
 }
@@ -34,5 +37,73 @@
    color: #212529 !important;
    background-color: #f8f9fa !important;
    border-color: #f8f9fa !important;
-   font-weight: 600;
+   font-weight: 800;
+}
+.work-btn a {
+  box-shadow: 0 4px 16px #efefef;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  padding: 10px 25px;
+}
+
+.work-btn a:hover {
+  background: #f4f5f8;
+  padding-right: 15px;
+  padding-left: 40px;
+  box-shadow: 4px 8px 16px #dedede;
+}
+
+.work-btn a::before {
+  transition: all 0.3s ease-in-out;
+}
+
+.work-btn a:hover::before {
+  content: '\F138';
+  font-family: 'bootstrap-icons';
+  font-weight: bold;
+  vertical-align: middle;
+  position: absolute;
+  left: 10px;
+}
+
+.work-btn span {
+  font-size: 14px !important;
+  font-weight: 600;
+  position: relative;
+  right: 0;
+  left:auto;
+  transition: all 0.2s ease-out;
+}
+
+#about-carousel-indicators [data-bs-target]{
+    width: 8px;
+    height:8px;
+    border-radius:50%; 
+    border: 1px solid #212529;
+}
+
+.numbers{
+    background-image: url(../images/img-3);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.number-content h1::before{
+    content: '';
+    background-color: #fff;
+    width: 15%;
+    position: absolute;
+    top: 140%;
+    border: 1px solid #fff;
+    right: 40%;
+}
+
+.icon-box .icon i{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px 40px 10px 10px ;
+}
+
+.icon-box{
+    transition:all 0.3s ease-in-out;
 }
